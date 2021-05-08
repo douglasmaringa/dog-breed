@@ -2,7 +2,7 @@ const express = require("express");
 const TeachableMachine = require("@sashido/teachablemachine-node");
 const cors = require('cors');
 const model = new TeachableMachine({
-  modelUrl: "https://teachablemachine.withgoogle.com/models/gw7zJ_-O3/"
+  modelUrl: "https://teachablemachine.withgoogle.com/models/eNrsh5UIK/"
 });
  
 const app = express();
